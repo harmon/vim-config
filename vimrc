@@ -1,3 +1,5 @@
+call pathogen#runtime_append_all_bundles()
+
 set expandtab "convert tabs to spaces
 set tabstop=3 "tabs size
 set shiftwidth=2 "shift size
