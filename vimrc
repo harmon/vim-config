@@ -1,7 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 
 set expandtab "convert tabs to spaces
-set tabstop=3 "tabs size
+set tabstop=2 "tabs size
 set shiftwidth=2 "shift size
 set softtabstop=2
 set smartindent
@@ -104,3 +104,4 @@ autocmd FileType actionscript set omnifunc=actionscriptcomplete#CompleteAS
 autocmd FileType actionscript :set dictionary=$HOME/.vim/dict/actionscript.dict
 autocmd BufEnter *.as set filetype=actionscript
 
+let NERDTreeChDirMode=2
