@@ -32,6 +32,7 @@ set hlsearch
 set number
 set ruler
 set visualbell
+set wildignore+=tmp/**
 
 syntax on
 colorscheme jellybeans
@@ -105,3 +106,7 @@ autocmd FileType actionscript :set dictionary=$HOME/.vim/dict/actionscript.dict
 autocmd BufEnter *.as set filetype=actionscript
 
 let NERDTreeChDirMode=2
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
