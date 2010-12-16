@@ -110,3 +110,6 @@ let NERDTreeChDirMode=2
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+
+au VimEnter * NERDTree
+au VimEnter * Tlist
