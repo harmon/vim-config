@@ -42,3 +42,4 @@ let g:alternateExtensions_{'mm'} = "h"
 let g:alternateExtensions_h = "m,mmc,cpp,cxx,cc,CC"
 let NERDTreeChDirMode=2
 
+let g:CommandTMatchWindowAtTop = 1
