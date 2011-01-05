@@ -46,3 +46,9 @@
 [submodule "bundle/a.vim"]
 	path = bundle/a.vim
 	url = https://github.com/vim-scripts/a.vim.git
+[submodule "bundle/vim-ruby-refactoring"]
+	path = bundle/vim-ruby-refactoring
+	url = https://github.com/ecomba/vim-ruby-refactoring.git
+[submodule "bundle/vim-matchit"]
+	path = bundle/vim-matchit
+	url = https://github.com/mhz/vim-matchit.git
