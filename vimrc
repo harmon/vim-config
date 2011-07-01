@@ -16,6 +16,7 @@ set showmatch "shows matching brackets
 set lcs=tab:\ \ ,trail:.,extends:$,precedes:$ "Replace special chars with visible chars(tabs=>>, etc.)
 set list
 
+
 set guioptions=egmrLt
 set backupdir=~/vim_backups
 set directory=~/vim_backups
